@@ -12,7 +12,7 @@ const filePathMiddleware = require('./middleware/file.middleware')
 const path = require('path')
 
 app.use(fileUpload({}))
-// app.use(corsMiddleware)
+app.use(corsMiddleware)
 app.use(express.static('static'))
 app.use(filePathMiddleware(path.resolve(__dirname, 'files')))
 app.use(filePathMiddleware(path.resolve(__dirname, 'static')))
