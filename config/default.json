@@ -1,5 +1,5 @@
 {
-    "PORT": 8888,
+    "PORT": 5333,
     "secret_key": "SDSDVSEDRFGE%YY$%FSGERT",
     "filePath": "../files",
     "staticPath": "../static",
